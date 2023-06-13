@@ -316,7 +316,7 @@ class RobotController:
             #print('n:{}::th:{}'.format(n,q))
             
             p.stepSimulation() 
-            print(angles)
+            
             time.sleep(self.time_step)
             n += 1
         
